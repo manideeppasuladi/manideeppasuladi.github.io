@@ -1,0 +1,37 @@
+.view {
+    /*background: url("/img/images/logo.JPG")no-repeat center center;*/
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgba(45, 157, 248, 0.835);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(66, 133, 244);
+    }
+    .icons{
+        width: 50%;
+        height: auto;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.contact{
+    color: white;
+    
+}
