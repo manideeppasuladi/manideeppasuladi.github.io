@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost/Ajax/index.php# -->
+<html lang="en" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Home_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./Home_files/jquery.min.js.download"></script>
+    <script>
+        $(document).ready(function () {
+
+            var trigger =$('.nav .navbar-collapse ul li a'),
+                container = $('#content');
+
+            trigger.on('click',function(){
+                var $this  = $(this)
+                    target = $this.data('target');
+                
+                container.load(target+ '.php');
+
+                return false;
+            });
+        });
+    </script>
+</head>
+  <body data-gr-c-s-loaded="true" cz-shortcut-listen="true" style="">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+          <a class="navbar-brand" href="http://localhost/Ajax/index.php#">Navbar</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item ">
+                      <a class="nav-link" data-target="home" href="http://localhost/Ajax/index.php#">Home </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" data-target="about" href="http://localhost/Ajax/index.php#">About</a>
+                  </li>
+                  
+              </ul>
+           
+      </nav>
+      <div id="content">
+          <div class="jumbotron">
+    <h1 class="display-3">Home</h1>
+    <p class="lead">Welcome</p>
+    <hr class="my-2">
+    <p>More info</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="http://localhost/Ajax/Jumbo%20action%20link" role="button">DOne</a>
+    </p>
+</div>      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./Home_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./Home_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./Home_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
