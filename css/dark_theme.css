@@ -1,0 +1,161 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+    background-color: #444444;
+    color: #f1f1f1;
+}
+
+.view {
+    background: #444444 url("../img/svg/landing_bg.svg") no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    color: #f1f1f1;
+}
+
+.scrolling-navbar {
+    color: #f1f1f1;
+}
+
+.top-nav-collapse {
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #monitor {
+        width: 20em;
+    }
+    .landing_text {
+        font-size: 16vw;
+    }
+}
+
+
+/* Landing */
+
+.nav-item {
+    padding-right: 2em;
+}
+
+.landing_text {
+    font-size: 4vw;
+}
+
+#monitor {
+    width: 15em;
+}
+
+.illustraion {
+    background: url("../img/svg/landing_Pattern.svg") no-repeat center;
+    background-size: contain;
+}
+
+
+/* About */
+
+.about_bg {
+    background: url('../img/svg/about_pattern.svg') no-repeat center;
+    background-size: contain;
+}
+
+
+/* Projects */
+
+.projects_icon {
+    width: 5rem;
+}
+
+.card {
+    padding: 10px;
+    background-color: #757575;
+}
+
+#projects .lead {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.read_button {
+    text-align: center;
+    background-color: #6196FF;
+    color: white;
+    padding: 6px 15px;
+    width: 7em;
+    text-decoration: none;
+    border: none;
+    border-radius: 10 10 10 10;
+}
+
+.view_button {
+    text-align: center;
+    background-color: #444444;
+    color: white;
+    padding: 6px 15px;
+    width: 7em;
+    text-decoration: none;
+    border: none;
+    border-radius: 10 10 10 10;
+}
+
+.disabled {
+    opacity: 0.7;
+}
+
+.view_more {
+    color: #FF8161;
+}
+
+
+/* Contact */
+
+#contact {
+    background: url('../img/svg/Contact_bg.svg') no-repeat center;
+    background-size: cover;
+}
+
+.social_icons {
+    font-size: 3vw;
+    display: inline;
+    padding-right: 5em;
+}
+
+.icon {
+    display: inline;
+}
+
+.contact_icon {
+    width: 5rem;
+}
+
+.social_icon:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+}
+
+.social_icon {
+    height: 70px;
+    opacity: 0.7;
+    transition: all ease-in-out 0.1s;
+}
+
+@media only screen and (max-width: 768px) {
+    .social_icon {
+        height: 50px;
+        opacity: 1;
+    }
+}
