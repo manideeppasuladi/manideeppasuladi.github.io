@@ -1,26 +1,8 @@
-Material Design for Bootstrap
+Manideep Pasuladi Portfolio
 
-Version: MDB Free 4.8.10
-
-Documentation:
-https://mdbootstrap.com/
-
-Getting started:
-https://mdbootstrap.com/docs/jquery/getting-started/download/
-
-Tutorials:
-MDB-Bootstrap: https://mdbootstrap.com/education/bootstrap/
-MDB-Wordpress: https://mdbootstrap.com/education/wordpress/
-
-Templates:
-https://mdbootstrap.com/templates/
-
-License:
-https://mdbootstrap.com/general/license/
-
-Support:
-https://mdbootstrap.com/forums/forum/support/
+Mail me at:
+manideeppasuladi@gmail.com
 
 Contact:
-office@mdbootstrap.com
++917702922763
 
