@@ -61,6 +61,9 @@ header,
         font-size: 10vw;
         font-weight: bold;
     }
+    #monitor {
+        height: 200px;
+    }
 }
 
 
