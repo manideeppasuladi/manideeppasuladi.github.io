@@ -64,6 +64,13 @@ header,
     #monitor {
         height: 200px;
     }
+    .about_height {
+        height: 25%;
+    }
+}
+
+.about_height {
+    height: auto;
 }
 
 
@@ -91,7 +98,8 @@ header,
 
 .about_bg {
     background: url('../img/svg/about_pattern.svg') no-repeat center;
-    background-size: contain;
+    background-size: 20rem;
+    padding-top: 80%;
 }
 
 .btn-resume:hover {
