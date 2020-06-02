@@ -1,0 +1,269 @@
+#loading {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    transition: 1s ease;
+    background: url('../img/loader.gif ') center no-repeat #fff;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html,
+body,
+header,
+.view,
+.proj_view {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.view,
+.proj_view {
+    background: #ffffff url("../img/svg/landing_bg.svg") no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: rgb(255, 255, 255);
+}
+
+#changing_text,
+.changing_text {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 7vw;
+    font-weight: bold;
+    transition: all ease-in-out 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #monitor {
+        width: 20em;
+    }
+    .landing_text {
+        font-size: 15vw;
+    }
+    #changing_text {
+        text-transform: uppercase;
+        font-size: 10vw;
+        font-weight: bold;
+    }
+    #monitor {
+        height: 200px;
+    }
+    .about_height {
+        height: 25%;
+    }
+}
+
+.about_height {
+    height: auto;
+}
+
+
+/* Landing */
+
+.nav-item {
+    padding-right: 2em;
+}
+
+.landing_text {
+    font-size: 5vw;
+}
+
+#monitor {
+    width: 15em;
+}
+
+.illustraion {
+    background: url("../img/svg/landing_Pattern.svg") no-repeat center;
+    background-size: contain;
+}
+
+
+/* About */
+
+.about_bg {
+    background: url('../img/svg/about_pattern.svg') no-repeat center;
+    background-size: 20rem;
+    padding-top: 80%;
+}
+
+.btn-resume:hover {
+    background-color: #FF6161;
+    color: white;
+    border: 2px solid #FF6161;
+    font-size: medium;
+}
+
+.btn-resume {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 400;
+    border: 2px solid #FF6161;
+    font-size: medium;
+}
+
+
+/* Projects */
+
+.projects_icon {
+    width: 5rem;
+}
+
+.card {
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.card_body h3 {
+    font-size: 18px;
+    font-weight: bold;
+    display: table-caption;
+}
+
+.card_body {
+    min-height: 20rem;
+    position: relative;
+}
+
+.action_buttons {
+    position: absolute;
+    bottom: 2%;
+}
+
+#projects .lead {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.read_button {
+    display: inline;
+    text-align: center;
+    background-color: rgb(69, 127, 243);
+    color: white;
+    padding: 6px 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 7em;
+    text-decoration: none;
+    border: none;
+    border-radius: 5;
+    transition: ease-in-out 0.3s;
+}
+
+.read_button:hover {
+    background-color: rgb(39, 108, 245);
+}
+
+.view_button {
+    display: inline;
+    text-align: center;
+    background-color: #444444;
+    color: white;
+    padding: 7px 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 7em;
+    text-decoration: none;
+    border: none;
+    border-radius: 5;
+}
+
+.view_button:hover {
+    background-color: #252525;
+}
+
+.disabled {
+    opacity: 0.7;
+}
+
+.view_button.disabled {
+    display: none;
+}
+
+.view_more {
+    color: #FF8161;
+}
+
+.view_more:hover {
+    color: black;
+}
+
+.focus_assist {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.focus_assist:hover {
+    border: 1px solid rgb(69, 127, 243);
+}
+
+
+/* Contact */
+
+#contact {
+    background: url('../img/svg/Contact_bg.svg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.social_icons {
+    font-size: 3vw;
+    display: inline;
+    padding-right: 5em;
+    color: grey;
+}
+
+.social_button {
+    text-decoration: none;
+    color: #444444;
+    transition: all ease-in-out 0.1s;
+}
+
+.social_button:hover {
+    text-decoration: none;
+    color: #000;
+    transition: all ease-in-out 0.1s;
+}
+
+.icon {
+    display: inline;
+}
+
+.contact_icon {
+    width: 5rem;
+}
+
+.social_icon:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+}
+
+.social_icon {
+    height: 70px;
+    opacity: 0.7;
+    transition: all ease-in-out 0.1s;
+}
+
+@media only screen and (max-width: 768px) {
+    .social_icon {
+        height: 50px;
+        opacity: 1;
+    }
+}
