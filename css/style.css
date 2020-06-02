@@ -100,8 +100,12 @@ header,
 
 .about_bg {
     background: url('../img/svg/about_pattern.svg') no-repeat center;
-    background-size: 20rem;
-    padding-top: 80%;
+    background-size: cover;
+}
+
+.about_box {
+    width: 200px;
+    min-height: 200px;
 }
 
 .btn-resume:hover {
@@ -112,11 +116,25 @@ header,
 }
 
 .btn-resume {
+    display: inline;
     background-color: #ffffff;
     color: black;
-    font-weight: 400;
+    font-weight: bold;
     border: 2px solid #FF6161;
     font-size: medium;
+}
+
+.btn-hire {
+    display: inline;
+    background-color: #61abff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid #61abff;
+    font-size: medium;
+}
+
+.btn-hire :hover {
+    color: white;
 }
 
 
