@@ -16,12 +16,14 @@
 html,
 body,
 header,
-.view {
-    height: 100%;
+.view,
+.proj_view {
+    min-height: 100vh;
     scroll-behavior: smooth;
 }
 
-.view {
+.view,
+.proj_view {
     background: #ffffff url("../img/svg/landing_bg.svg") no-repeat;
     background-size: cover;
 }
@@ -217,6 +219,7 @@ header,
 #contact {
     background: url('../img/svg/Contact_bg.svg') no-repeat center;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .social_icons {
