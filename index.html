@@ -40,7 +40,7 @@
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-light  font-weight-bold scrolling-navbar">
     <div class="container">
-        <a class="navbar-brand" href="#"><strong>MANi</strong></a>
+        <a class="navbar-brand" href="/"><strong>MANi</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -93,7 +93,7 @@
 <section class="container-fluid  flex-center" id="about">
     <div class="row about_height py-5" >
       <div class="col col-12 col-md-4  flex-center px-5 py-5 ">
-        <div class="about_box about_bg flex-center">
+        <div class="about_box about_bg flex-center wow fadeIn">
           <h1 class="font-weight-bold px-5 py-3 my-auto ">About</h1>
         </div>
       </div>
@@ -110,7 +110,7 @@
 </section>
 
 <section class="container-fluid  mt-4 pt-4 mb-4 " id="projects">
-      <h1 class="font-weight-bold h1 text-right mx-5 my-3">Projects  <img src="img/svg/projects_icon.svg" class=" projects_icon ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></h1> 
+      <h1 class="font-weight-bold h1 text-right mx-5 my-3 wow fadeIn">Projects  <img src="img/svg/projects_icon.svg" class=" projects_icon ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></h1> 
       
       <div class="container-fluid mt-5 mb-5" id="matter-body" >
       <!--
@@ -138,10 +138,10 @@
                 
            </div>
           
-      <h1 class="h6 font-weight-bold h1 text-right mx-5 mt-5 pr-5 container "><a href='#'  class="view_more "> View more.. </a> </h1>
+      <h1 class="h6 font-weight-bold h1 text-right mx-5 mt-5 pr-5 container display-none "><a href='#'  class="view_more "> View more.. </a> </h1>
 </section>
 
-<section class="container-fluid h-100 mt-5 pt-5 " id="contact">
+<section class="container-fluid  mt-5 pt-5 wow fadeIn " id="contact">
     <h1 class="font-weight-bold container ">Contact <img src="img/svg/contact_icon.svg" class=" contact_icon ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></h1>
 
     
@@ -213,26 +213,28 @@
 <!-- Grid column end -->
 
           <div class="col-md-6 mb-5   justify-content-end align-item-center my-auto ">
-            <div class="social_section mt-md-0 mt-5 ">
-                    <div class="row justify-content-center ">
+            <div class="social_section mt-md-0 mt-5 mb-5 mb-md-0">
+                    <div class="row justify-content-center pb-3">
                             
                             <div class="col-md-2 col-2"> 
-                                <a class="social_button " target="_blank" href="mailto:manideeppasuladi@gmail.com" > <i class="fab fa-2x social_icon fa-google " aria-hidden="true"></i> </a> 
+                                <a class="social_button wow fadeIn " data-wow-delay="0.2s" target="_blank" href="mailto:manideeppasuladi@gmail.com" > <i class="fab fa-2x social_icon fa-google " aria-hidden="true"></i> </a> 
                             </div>
                             <div class="col-md-2 col-2">
-                                <a class="social_button" target="_blank" href="https://www.linkedin.com/in/manideep-pasuladi-593b0b130/" > <i class="fab fa-2x social_icon fa-linkedin" aria-hidden="true"></i> </a>
+                                <a class="social_button wow fadeIn" data-wow-delay="0.3s" target="_blank" href="https://www.linkedin.com/in/manideep-pasuladi-593b0b130/" > <i class="fab fa-2x social_icon fa-linkedin" aria-hidden="true"></i> </a>
                             </div>
-                            
+                            <div class="col-md-2 col-2">
+                                <a class="social_button wow fadeIn" data-wow-delay="0.4s" target="_blank" href="https://twitter.com/ManideepLeo" > <i class="fab fa-2x social_icon fa-twitter" aria-hidden="true"></i> </a>
+                            </div>
                             <div class="col-md-2 col-2"> 
-                                 <a class="social_button" target="_blank" href="https:github.com/manideeppasuladi/" > <i class="fab fa-2x social_icon fa-github" aria-hidden="true"></i> </a>
+                                 <a class="social_button wow fadeIn" data-wow-delay="0.5s" target="_blank" href="https:github.com/manideeppasuladi/" > <i class="fab fa-2x social_icon fa-github" aria-hidden="true"></i> </a>
                             </div>
                              <div class="col-md-2 col-2"> 
-                                 <a class="social_button" target="_blank" href="tel:+917702922763" > <i class="fab fa-2x social_icon fa-whatsapp" aria-hidden="true"></i> </a>
+                                 <a class="social_button wow fadeIn" data-wow-delay="0.6s" target="_blank" href="tel:+917702922763" > <i class="fab fa-2x social_icon fa-whatsapp" aria-hidden="true"></i> </a>
                             </div>
                         
                     </div>
                     <div class="row text-center justify-content-center">
-                        <p class="lead text-center" > All Rights Reserved <i class="fab fa-battle-net" > </i> 2020 </p>
+                        <p class="lead text-center animated fadeInUp" > All Rights Reserved <i class="fab fa-battle-net" > </i> 2020 </p>
                     </div>
                   
             </div>
@@ -268,7 +270,7 @@
           $.each(data.projects, function(i, p) {
              //console.log(i);
               var project_content = "<div class='col col-12 col-md-3' id='project_"+p.id+"'>" +
-                  "<div class='card mt-4 focus_assist'>"+
+                  "<div class='card mt-4 focus_assist hover'>"+
                       "<div class='card_body px-3 py-2 '> "+
                           "<div class='row py-3'>"+
                             "<h3>   "+p.title+"  </h3>"+
@@ -282,7 +284,7 @@
                             "</p>"+
                           "</div>"+
                           "<div class='row action_buttons'>"+
-                            "<form action='readProject.html' method='GET'><input type='' name='pro_id' value='"+p.id+"' hidden/><button class='read_button'> Read More </button>"+
+                            "<form action='project.html' method='GET'><input type='' name='pro_id' value='"+p.id+"' hidden/><button class='read_button'> Read More </button>"+
                             "<a class='view_button text-white "+p.viewaction+"' href='"+p.link+"' target='_blank'> View </a>"+
                           "</div>"+
                       "</div>"+

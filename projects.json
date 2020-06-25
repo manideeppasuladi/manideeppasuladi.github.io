@@ -3,6 +3,7 @@
     "projects": [{
             "id": 0,
             "title": "Toxic Message Classification",
+            "short_desc": "A deep learning application with interactive chats",
             "description": "Classification of toxic messages into six different categories and predicting the level of toxicity. - Ensemble modeling of CNN and Bidirectional GRU.",
             "details": "Programming Language - Python <br> Libraries used - Scikit-Learn, Tensorflow, Keras, Pandas, Numpy, Matplotlib, Flask Web Framework",
             "link": "",
@@ -12,6 +13,7 @@
         {
             "id": 1,
             "title": "Movie Recommendation System",
+            "short_desc": "Basic recommendation system for OTT related application",
             "description": "Recommending movies for the user using data mining concepts. Content Based filtering and Collaborative filtering",
             "details": "Programming Language - Python <br> Libraries used - Scikit-Learn, Pandas, Numpy, nltk",
             "link": "",
@@ -21,6 +23,7 @@
         {
             "id": 2,
             "title": "Text Summarization",
+            "short_desc": "Fastest Text summarising system",
             "description": "Reducing the length of a paragraph using Content Based filtering and Collaborative filtering",
             "details": "Programming Language - Python <br> Libraries used - Scikit-Learn, Pandas, Numpy, nltk",
             "link": "",
@@ -30,16 +33,38 @@
         {
             "id": 3,
             "title": "Examination Management System ",
+            "short_desc": "Flexible and dynamic OMR generation system",
             "description": "Generating OMR for students of Anurag Group of Institution. Creating OMR template using HTML and CSS and loading details of students on the OMR",
             "details": "Programming Language - PHP <br> Web Framework - CodeIgniter (MVC Architecture)<br>Libraries used - TCPDF, DOMPDF, CrudIgniter",
             "link": "",
             "image": "img/project_3.png",
             "viewaction": "disabled"
         },
+        {
+            "id": 7,
+            "title": "Anurag Web Club",
+            "short_desc": "Student's club for developing web projects.",
+            "description": "A Student’s club Portfolio Website developed using HTML and CSS",
+            "details": "Programming Language - PHP <br> CSS Framework -  Bootstrap",
+            "link": "http://anuragweb.club/",
+            "image": "img/project_6.png",
+            "viewaction": ""
+        },
 
+        {
+            "id": 8,
+            "title": "Data Analytics Club Website",
+            "short_desc": "Student's club to work on new analytical problems.",
+            "description": "A Student’s club Portfolio Website developed using HTML and CSS",
+            "details": "Programming Language - PHP <br> CSS Framework -  Bootstrap",
+            "link": "http://anuragcdtc.com/dataanalyticsclub/",
+            "image": "img/project_7.png",
+            "viewaction": ""
+        },
         {
             "id": 5,
             "title": "International Conference Website",
+            "short_desc": "First held conference in AGI University",
             "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
             "details": "Programming Language - PHP <br> CSS Framework -  Bootstrap",
             "link": "http://anuragcdtc.com/icacii/ICACII/",
@@ -49,30 +74,14 @@
         {
             "id": 6,
             "title": "Anurag’s Student Course Registration ",
+            "short_desc": "A flexible student's registration page",
             "description": "Center of Development of Technical Competencies (CDTC) is a student enrollment site            ",
             "details": "Programming Language - PHP <br> Web Framework - CodeIgniter (MVC Architecture)<br>Libraries used - TCPDF, DOMPDF, CrudIgniter",
             "link": "http://anuragcdtc.com/",
             "image": "img/project_5.png",
             "viewaction": ""
-        },
-        {
-            "id": 7,
-            "title": "Anurag Web Club",
-            "description": "A Student’s club Portfolio Website developed using HTML and CSS",
-            "details": "Programming Language - PHP <br> CSS Framework -  Bootstrap",
-            "link": "http://anuragweb.club/",
-            "image": "img/project_6.png",
-            "viewaction": ""
-        },
-        {
-            "id": 8,
-            "title": "Data Analytics Club Website",
-            "description": "- A Student’s club Portfolio Website developed using HTML and CSS",
-            "details": "Programming Language - PHP <br> CSS Framework -  Bootstrap",
-            "link": "http://anuragcdtc.com/dataanalyticsclub/",
-            "image": "img/project_7.png",
-            "viewaction": ""
         }
+
     ]
 
 }
