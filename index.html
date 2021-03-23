@@ -234,7 +234,7 @@
                         
                     </div>
                     <div class="row text-center justify-content-center">
-                        <p class="lead text-center animated fadeInUp" > All Rights Reserved <i class="fab fa-battle-net" > </i> <span id = "bottom_year"></span> </p>
+                        <p class="lead text-center animated fadeInUp" > All Rights Reserved <i class="fab fa-battle-net" > </i> <span id="bottom_year"></span> </p>
                     </div>
                   
             </div>
@@ -266,7 +266,8 @@
     new WOW().init();
     var today = new Date();
     var yyyy = today.getFullYear();
-  $("#bottom_year").val(yyyy);
+    console.log(yyyy);
+    $("#bottom_year").text(yyyy);
   });
     $(function() {
      $.getJSON('projects.json', function(data) {
