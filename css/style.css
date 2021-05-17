@@ -108,32 +108,6 @@ body,
     min-height: 220px;
 }
 
-@media only screen and (min-width: 768px) {
-    .proj_contents::before {
-        content: "";
-        background-color: #FEF678;
-        position: absolute;
-        height: 100%;
-        width: 150%;
-        left: 0px;
-        top: 0;
-        z-index: -1;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .proj_contents::before {
-        content: "";
-        background-color: #FEF678;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        left: 0px;
-        top: -100px;
-        z-index: -1;
-    }
-}
-
 .btn-resume:hover {
     background-color: #FF6161;
     color: white;
@@ -324,6 +298,32 @@ body,
     width: 100%;
     background-color: #FEF678;
     position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .proj_contents::before {
+        content: "";
+        background-color: #FEF678;
+        position: absolute;
+        height: 100%;
+        width: 150%;
+        left: 0px;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .proj_contents::before {
+        content: "";
+        background-color: #FEF678;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+        top: -100px;
+        z-index: -1;
+    }
 }
 
 .proj_body {

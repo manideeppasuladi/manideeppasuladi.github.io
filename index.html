@@ -229,12 +229,12 @@
                                  <a class="social_button wow fadeIn" data-wow-delay="0.5s" target="_blank" href="https:github.com/manideeppasuladi/" > <i class="fab fa-2x social_icon fa-github" aria-hidden="true"></i> </a>
                             </div>
                              <div class="col-md-2 col-2"> 
-                                 <a class="social_button wow fadeIn" data-wow-delay="0.6s" target="_blank" href="https://wa.me/917702922763" > <i class="fab fa-2x social_icon fa-whatsapp" aria-hidden="true"></i> </a>
+                                 <a class="social_button wow fadeIn" data-wow-delay="0.6s" target="_blank" href="tel:+917702922763" > <i class="fab fa-2x social_icon fa-whatsapp" aria-hidden="true"></i> </a>
                             </div>
                         
                     </div>
                     <div class="row text-center justify-content-center">
-                        <p class="lead text-center animated fadeInUp" > All Rights Reserved <i class="fab fa-battle-net" > </i> <span id="bottom_year"></span> </p>
+                        <p class="lead text-center animated fadeInUp" > All Rights Reserved <i class="fab fa-battle-net" > </i> 2020 </p>
                     </div>
                   
             </div>
@@ -263,12 +263,8 @@
   <script type="text/javascript" src="js/expand.js"></script>
   <script>
   $( document ).ready(function() {
-    new WOW().init();
-    var today = new Date();
-    var yyyy = today.getFullYear();
-    console.log(yyyy);
-    $("#bottom_year").text(yyyy);
-  });
+  new WOW().init();
+});
     $(function() {
      $.getJSON('projects.json', function(data) {
           $.each(data.projects, function(i, p) {
